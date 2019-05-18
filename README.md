@@ -1,0 +1,2 @@
+# newsapp
+sample news app
