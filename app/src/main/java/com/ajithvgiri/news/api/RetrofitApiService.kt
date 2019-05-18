@@ -15,7 +15,7 @@ object RetrofitApiService {
             httpClient.addInterceptor { chain ->
                 val original = chain.request()
                 val requestBuilder = original.newBuilder()
-                    .addHeader("Authorization", "Bearer fa560591d1944ec2ab2bb46fdbe21dae")
+                    .addHeader("Authorization", "Bearer ")
                 val request = requestBuilder.build()
                 chain.proceed(request)
             }
